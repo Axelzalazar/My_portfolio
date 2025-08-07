@@ -175,27 +175,39 @@ footer {
 }
 
 .miniatura1 {
-  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../img/tienda_bicis.png);
+  background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.4)), url(../img/tienda_bicis.png);
   background-position: center;
   background-size: cover;
 }
 
+.miniatura1:hover {
+  background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.4)), url(../img/tienda_bicis.png);
+}
 .miniatura2 {
-  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../img/todo_list.png);
+  background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.4)), url(../img/todo_list.png);
   background-position: center;
   background-size: cover;
+}
+.miniatura2:hover {
+  background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.4)), url(../img/todo_list.png);
 }
 
 .miniatura3 {
-  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../img/portfolio_az.png);
+  background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.4)), url(../img/portfolio_az.png);
     background-position: center;
   background-size: cover;
 }
+.miniatura3:hover {
+  background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.4)), url(../img/portfolio_az.png);
+}
 
 .miniatura4 {
-  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../img/tienda_ropa.png);
+  background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.4)), url(../img/tienda_ropa.png);
   background-position: center;
   background-size: cover;
+}
+.miniatura4:hover {
+  background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.4)), url(../img/tienda_ropa.png); 
 }
 
 
