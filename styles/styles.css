@@ -63,7 +63,7 @@ a {
 }
 
 h1 {
-    font-size: 6em;
+    font-size: 4.3em !important;
     margin: 0;
     padding: 0;
 }
