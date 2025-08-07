@@ -3,8 +3,8 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #22222b;
-    color: #fff;
+    background-color: #22222b !important;
+    color: #fff !important;
 }
 
 header {
@@ -46,21 +46,20 @@ a {
 #home {
     margin: auto;
     padding: 0; 
+    text-align: center;
     height: 60vh;
     width: 70%;
-    background-image: url('../img/image_me.png');
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
     display: flex;
+    align-items: center;
 }
 
 .home-box{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+  width: 25em;
+
+}
+
+.home-content {
+  color: #b4b4b4;
 }
 
 h1 {
@@ -80,10 +79,9 @@ h1 {
 
 
 #projects {
-    height: 100vh;
     width: 100%;
     margin: 0;
-    padding: 0;
+    padding: 1em 0;
     background-color: #1d1d24;
 }
 
@@ -94,8 +92,8 @@ h2{
 
 .parent {
 display: grid;
-grid-template-columns: repeat(2, 1fr);
-grid-template-rows: repeat(2, 1fr);
+grid-template-columns: repeat(1, 1fr);
+grid-template-rows: repeat(1, 1fr);
 grid-column-gap: 50px;
 grid-row-gap: 50px;
 }
@@ -114,14 +112,15 @@ grid-row-gap: 50px;
 
 
 #contact {
-    height: 100vh;
     width: 100%;
     margin: 0;
-    padding: 0;
+    padding: 1em 0;
     background-color: #3d3d3d;
 }
 
-
+footer {
+  text-align: center;
+}
 
 
 .contact-section {
@@ -197,4 +196,25 @@ grid-row-gap: 50px;
   background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(../img/tienda_ropa.png);
   background-position: center;
   background-size: cover;
+}
+
+
+
+@media (min-width: 768px) {
+  .parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+  }
+
+  #home {
+    text-align: left;
+    background-image: url('../img/image_me.png');
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+  }
+  
 }
