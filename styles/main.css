@@ -104,20 +104,7 @@ header {
   background-position: center;
   background-size: cover;
   box-shadow: rgba(180, 180, 180, 0.7333333333) 0px 0px 20px;
-  transition: box-shadow 0.3s ease, opacity 0.3s ease;
-}
-.miniatura1 h3,
-.miniatura1 p {
-  opacity: 1;
-  transition: opacity 0.3s ease;
-}
-.miniatura1:hover {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)), url("../img/tienda_bicis.png");
-  box-shadow: #b4b4b4 0px 0px 30px;
-}
-.miniatura1:hover h3,
-.miniatura1:hover p {
-  opacity: 0;
+  transition: box-shadow 0.3s ease;
 }
 
 .miniatura2 {
@@ -125,24 +112,11 @@ header {
   background-position: center;
   background-size: cover;
   box-shadow: rgba(180, 180, 180, 0.7333333333) 0px 0px 20px;
-  transition: box-shadow 0.3s ease, opacity 0.3s ease;
-}
-.miniatura2 h3,
-.miniatura2 p {
-  opacity: 1;
-  transition: opacity 0.3s ease;
-}
-.miniatura2:hover {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)), url("../img/todo_list.png");
-  box-shadow: #b4b4b4 0px 0px 30px;
-}
-.miniatura2:hover h3,
-.miniatura2:hover p {
-  opacity: 0;
+  transition: box-shadow 0.3s ease;
 }
 
 .miniatura3 {
-  background-image: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.7)), url("../img/diseno_enlatado-background.png");
+  background-image: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.7)), url("../img/tienda_bicis.png");
   background-position: center;
   background-size: cover;
   box-shadow: rgba(180, 180, 180, 0.7333333333) 0px 0px 20px;
@@ -154,7 +128,7 @@ header {
   transition: opacity 0.3s ease;
 }
 .miniatura3:hover {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)), url("../img/diseno_enlatado-background.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)), url("../img/tienda_bicis.png");
   box-shadow: #b4b4b4 0px 0px 30px;
 }
 .miniatura3:hover h3,
@@ -167,20 +141,22 @@ header {
   background-position: center;
   background-size: cover;
   box-shadow: rgba(180, 180, 180, 0.7333333333) 0px 0px 20px;
-  transition: box-shadow 0.3s ease, opacity 0.3s ease;
+  transition: box-shadow 0.3s ease;
 }
-.miniatura4 h3,
-.miniatura4 p {
-  opacity: 1;
-  transition: opacity 0.3s ease;
+
+.miniatura1:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)), url("../img/tienda_bicis.png");
+  box-shadow: #b4b4b4 0px 0px 30px;
 }
+
+.miniatura2:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)), url("../img/todo_list.png");
+  box-shadow: #b4b4b4 0px 0px 30px;
+}
+
 .miniatura4:hover {
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7)), url("../img/tienda_ropa.png");
   box-shadow: #b4b4b4 0px 0px 30px;
-}
-.miniatura4:hover h3,
-.miniatura4:hover p {
-  opacity: 0;
 }
 
 #contact {
@@ -250,4 +226,4 @@ footer {
   }
 }
 
-/*# sourceMappingURL=styles.css.map */
+/*# sourceMappingURL=main.css.map */

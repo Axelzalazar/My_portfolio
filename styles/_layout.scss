@@ -1,0 +1,50 @@
+.content {
+  width: 70%;
+  margin: auto;
+}
+
+#home {
+  margin: auto;
+  padding: 0;
+  text-align: center;
+  height: 60vh;
+  width: 70%;
+  display: flex;
+  align-items: center;
+}
+
+.home-box {
+  width: $home-box-width;
+}
+
+.home-content {
+  color: $hover-border-color;
+}
+
+.home-text {
+  width: $home-text-width;
+  font-size: 1em;
+  margin: 0;
+  padding: 0;
+  color: $hover-border-color;
+}
+
+#projects {
+  width: 100%;
+  margin: 0;
+  padding: 1em 0;
+  background-color: $section-bg-projects;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  grid-column-gap: 50px;
+  grid-row-gap: 50px;
+
+  @media (min-width: 768px) {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+}
