@@ -1,0 +1,43 @@
+body {
+  width: 100%;
+  font-family: $font-body;
+  margin: 0;
+  padding: 0;
+  background-color: $background-color-1 !important;
+  color: $text-color !important;
+}
+
+a {
+  color: $link-color !important;
+  text-decoration: none !important;
+}
+
+h1 {
+  font-size: $h1-size !important;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  color: $text-color;
+  padding: 0;
+  margin: 0;
+  height: $header-height;
+}
+
+p {
+  width: 60%;
+}
+
+footer{
+  height: 10vh;
+}
+
+footer p{
+  margin: auto;
+}
